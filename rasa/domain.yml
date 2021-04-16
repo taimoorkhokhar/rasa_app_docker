@@ -1,0 +1,18 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- Greet
+- Circle
+responses:
+  utter_Greet:
+  - text: Hello What can I do for you?
+  - text: Im here to help :)
+  - text: Hello What can I do for you?
+  - text: Im here to help :)
+  - text: Hello What can I do for you?
+  - text: Im here to help :)
+  utter_Circle:
+  - text: This is circle tool. :)
+  - text: This is circle tool. :)
+  - text: This is circle tool. :)

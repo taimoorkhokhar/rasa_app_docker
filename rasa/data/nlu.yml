@@ -1,0 +1,40 @@
+version: '2.0'
+nlu:
+  - intent: Greet
+    examples: |
+      - Hello
+      - hey
+      - hi
+      - How are you?
+      - anyone?
+      - hiii
+      - hellooo
+      - ?
+      - Hello
+      - hey
+      - hi
+      - How are you?
+      - anyone?
+      - hiii
+      - hellooo
+      - ?
+      - Hello
+      - hey
+      - hi
+      - How are you?
+      - anyone?
+      - hiii
+      - hellooo
+      - ?
+
+  - intent: Circle
+    examples: |
+      - circle?Circle tool?
+      - circle?
+      - circle toolo?
+      - circle?Circle tool?
+      - circle?
+      - circle toolo?
+      - circle?Circle tool?
+      - circle?
+      - circle toolo?
