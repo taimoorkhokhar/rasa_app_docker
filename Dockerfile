@@ -12,9 +12,10 @@ RUN pip3 install --upgrade pip
 
 RUN pip3 install ruamel.yaml
 
-RUN pip3 install -r /src/app/requirements.txt --no-cache-dir --no-deps
+RUN pip3 install -r /src/app/requirements.txt --no-cache-dir
 
-EXPOSE 8083
+
+EXPOSE 5005
 
 WORKDIR /src/app
 
