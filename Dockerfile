@@ -12,8 +12,7 @@ RUN pip3 install --upgrade pip
 
 RUN pip3 install ruamel.yaml
 
-RUN pip3 install -r /src/app/requirements.txt --no-cache-dir
-
+RUN pip3 install -r /src/app/requirements.txt --use-deprecated=legacy-resolver
 
 EXPOSE 5005
 
