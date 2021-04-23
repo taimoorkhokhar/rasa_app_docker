@@ -19,4 +19,6 @@ EXPOSE 5005
 
 WORKDIR /src/app
 
+RUN rasa train --fixed-model-name /src/app/models/demo-model
+
 CMD ["supervisord","-c","/src/supervisor/service_script.conf"]
